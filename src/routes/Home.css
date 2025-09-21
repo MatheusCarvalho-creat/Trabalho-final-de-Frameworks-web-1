@@ -1,0 +1,55 @@
+/* Container principal */
+div {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  margin-bottom: 30px;
+  color: #fffcfc;
+}
+
+/* Lista de Pokémons */
+ul {
+  list-style: none; /* Remove bullets */
+  display: flex;
+  flex-wrap: wrap; /* Permite quebra de linha automática */
+  justify-content: center;
+  gap: 20px; /* Espaço entre os cards */
+  padding: 0;
+  background-color: ;
+}
+
+/* Cada card de Pokémon */
+li {
+  background-color: #dea9a9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 150px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Efeito hover nos cards */
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
+
+/* Nome do Pokémon */
+li h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  text-transform: capitalize; /* Primeira letra maiúscula */
+  color: #444;
+}
+
+/* Imagem do Pokémon */
+li img {
+  width: 100px;
+  height: 100px;
+}
