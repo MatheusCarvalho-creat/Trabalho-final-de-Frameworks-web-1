@@ -1,12 +1,63 @@
-# React + Vite
+📘 Trabalho Final de Frameworks Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte do Trabalho Final da disciplina de Frameworks Web.
+O sistema consiste em uma aplicação SPA (Single Page Application) construída com React + Vite, que permite criar e visualizar posts de forma simples e intuitiva.
 
-Currently, two official plugins are available:
+✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Página inicial (Home): exibe os posts já cadastrados.
 
-## Expanding the ESLint configuration
+➕ Novo Post: formulário para criação de novos posts (com título e conteúdo).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 Navegação dinâmica: uso do React Router para alternar entre páginas sem recarregar a aplicação.
+
+🔄 Integração com API: consumo de dados utilizando Axios.
+
+🎨 Estilização: uso de CSS modularizado para componentes e páginas.
+
+🛠️ Tecnologias Utilizadas
+
+⚛️ React 19
+
+⚡ Vite
+
+🌐 React Router DOM
+
+📡 Axios
+
+📂 Estrutura do Projeto
+src/
+ ├── components/
+ │   └── Navbar.jsx      # Barra de navegação
+ ├── routes/
+ │   ├── Home.jsx        # Página inicial (lista de posts)
+ │   └── NewPost.jsx     # Página para criar novo post
+ ├── App.jsx             # Estrutura principal da aplicação
+ ├── main.jsx            # Ponto de entrada do React
+ └── assets/             # Recursos estáticos
+
+🚀 Como Executar o Projeto
+
+Clone este repositório:
+
+git clone https://github.com/SEU-USUARIO/Trabalho-final-de-frameworks-web.git
+
+
+Acesse a pasta do projeto:
+
+cd Trabalho-final-de-frameworks-web
+
+
+Instale as dependências:
+
+npm install
+
+
+Execute o servidor de desenvolvimento:
+
+npm run dev
+
+
+Acesse no navegador:
+
+http://localhost:5173
